@@ -15,7 +15,7 @@
     -->
 
     <groupId>com.github.NataliaLopesSilva</groupId>
-    <artifactId>cs20162-aula07</artifactId>
+    <artifactId>cs20162-aula02</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 
@@ -25,7 +25,7 @@
         Projeto de referência (exemplo) inicial de desenvolvimento em Java com uso de JUnit.
     </description>
 
-    <url>https://github.com/NataliaLopesSilva/cs20162/aula07</url>
+    <url>https://github.com/NataliaLopesSilva/cs20162/aula02</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
@@ -55,7 +55,7 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/NataliaLopesSilva/cs20162-aula07.git</connection>
+        <connection>scm:git:https://github.com/NataliaLopesSilva/cs20162-aula02.git</connection>
         <developerConnection>scm:git:https://github.com/NataliaLopesSilva/cs20162-aula07.git</developerConnection>
         <url>https://github.com/NataliaLopesSilva/cs20162-aula07</url>
     </scm>
