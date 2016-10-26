@@ -1,28 +1,28 @@
-package com.github.natalialopessilva.cs20162aula2;
+package com.github.NataliaLopesSilva.cs20162.aula2;
 
-import com.github.natalialopessilva.cs20162.aula02.Propriedade3025;
+import com.github.natalialopessilva.cs20162.aula02.Propriedade153;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Propriedade3025Test {
+public class Propriedade153Test {
 
     @Test(expected = IllegalArgumentException.class)
     public void numeroMenorQueZeroInvalido() {
-        Propriedade3025.propriedade(-1);
+        Propriedade153.propriedade(-1);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void numeroMaoiorQue9999Invalido() {
-        Propriedade3025.propriedade(10000);
+        Propriedade153.propriedade(10000);
     }
 
     @Test
     public void resultadoCorreto() {
-        Assert.assertTrue(Propriedade3025.propriedade(3025));
+        Assert.assertTrue(Propriedade153.propriedade(153));
     }
 
     @Test
     public void resultadoIncorreto() {
-        Assert.assertFalse(Propriedade3025.propriedade(2521));
+        Assert.assertFalse(Propriedade153.propriedade(1530));
     }
 }

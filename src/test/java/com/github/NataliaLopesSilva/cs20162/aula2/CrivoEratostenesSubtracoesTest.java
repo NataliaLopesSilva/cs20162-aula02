@@ -1,4 +1,4 @@
-package com.github.natalialopessilva.cs20162aula2;
+package com.github.NataliaLopesSilva.cs20162.aula2;
 
 import com.github.natalialopessilva.cs20162.aula02.CrivoEratostenesSubtracoes;
 import org.junit.Assert;
