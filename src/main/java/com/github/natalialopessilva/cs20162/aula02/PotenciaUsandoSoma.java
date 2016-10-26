@@ -16,13 +16,13 @@ package com.github.natalialopessilva.cs20162.aula02;
  * ProdutoInteiroPsotivoUsandoSoma já criada no projeto.
  *
  */
-public class PotenciaUsandoSoma {
+public final class PotenciaUsandoSoma {
 
     /**
      * Construtor da classe PotenciaUsandoSoma que impede que a mesma seja
      * instanciada ou acessada.
      */
-    protected PotenciaUsandoSoma() {
+    private PotenciaUsandoSoma() {
     }
 
     /**
@@ -42,7 +42,8 @@ public class PotenciaUsandoSoma {
                     + " que 0.");
         }
 
-        int potencia = 1, i = 1;
+        int potencia = 1;
+        int i = 1;
 
         do {
             potencia = ProdutoInteiroPositivoUsandoSoma.produtoComSoma(potencia,

@@ -13,7 +13,7 @@ package com.github.natalialopessilva.cs20162.aula02;
  * 2, da disciplina Construção de software do prof. Fábio Nogueira de Lucena.
  *
  */
-public class SomatorioNumerosNaturais {
+public final class SomatorioNumerosNaturais {
 
     /**
      * Número máximo que n pode assumir.
@@ -24,7 +24,7 @@ public class SomatorioNumerosNaturais {
      * Construtor da classe SomatorioNumerosNaturais que impede que a mesma seja
      * instanciada ou acessada.
      */
-    protected SomatorioNumerosNaturais() {
+    private SomatorioNumerosNaturais() {
     }
 
     /**
@@ -43,7 +43,8 @@ public class SomatorioNumerosNaturais {
             throw new IllegalArgumentException("valor de n inválido");
         }
 
-        int i = CONTADOR, s = 1;
+        int i = CONTADOR;
+        int s = 1;
 
         while (i <= n) {
             s += i;

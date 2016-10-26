@@ -47,7 +47,8 @@ public final class CrivoEratostenes {
             }
         }
 
-        int i = 0, c = 0;
+        int i = 0;
+        int c = 0;
 
         i = NUM_MAXIMO_DIVISORES;
 

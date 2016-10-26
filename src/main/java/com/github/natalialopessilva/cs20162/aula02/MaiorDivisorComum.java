@@ -14,13 +14,13 @@ package com.github.natalialopessilva.cs20162.aula02;
  * 2, da disciplina Construção de software do prof. Fábio Nogueira de Lucena.
  *
  */
-public class MaiorDivisorComum {
+public final class MaiorDivisorComum {
 
     /**
      * Construtor da classe MaiorDivisorComum que impede que a mesma seja
      * instanciada ou acessada.
      */
-    protected MaiorDivisorComum() {
+    private MaiorDivisorComum() {
     }
 
     /**
@@ -37,13 +37,17 @@ public class MaiorDivisorComum {
     public static int verificaMaiorDivisor(final int a, final int b) {
 
         if (a < b) {
-            throw new IllegalArgumentException("valor de a inválido");
+            throw new IllegalArgumentException("Valor de 'a' deve ser maior ou "
+                    + "igual a 'b'");
         }
         if (b < 0) {
-            throw new IllegalArgumentException("valor de b inválido");
+            throw new IllegalArgumentException("Valor de b deve ser maior ou "
+                    + "igual a 0");
         }
 
-        int m = 0, c = a, d = b;
+        int m = 0;
+        int c = a;
+        int d = b;
 
         do {
             m = c % d;

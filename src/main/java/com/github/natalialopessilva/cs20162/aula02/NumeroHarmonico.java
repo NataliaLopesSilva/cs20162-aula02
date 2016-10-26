@@ -14,7 +14,7 @@ package com.github.natalialopessilva.cs20162.aula02;
  * 2, da disciplina Construção de software do prof. Fábio Nogueira de Lucena.
  *
  */
-public class NumeroHarmonico {
+public final class NumeroHarmonico {
 
     /**
      * Número máximo de divisores que um número primo pode ter (um e ele mesmo).
@@ -25,7 +25,7 @@ public class NumeroHarmonico {
      * Construtor da classe NumeroHarmonico que impede que a mesma seja
      * instanciada ou acessada.
      */
-    protected NumeroHarmonico() {
+    private NumeroHarmonico() {
     }
 
     /**
@@ -39,7 +39,8 @@ public class NumeroHarmonico {
     public static double numeroHarmonico(final int n) {
 
         if (n < 1) {
-            throw new IllegalArgumentException("valor de n inválido");
+            throw new IllegalArgumentException("Valor de n deve ser maior ou "
+                    + "igual a 1");
         }
 
         int i = INICIO_TERMOS;

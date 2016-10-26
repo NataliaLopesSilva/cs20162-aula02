@@ -13,13 +13,13 @@ package com.github.natalialopessilva.cs20162.aula02;
  * Algoritmo correspondente obtido da Lista de exercícios correspondentes a aula
  * 2, da disciplina Construção de software do prof. Fábio Nogueira de Lucena.
  */
-public class CrivoEratostenesSubtracoes {
+public final class CrivoEratostenesSubtracoes {
 
     /**
      * Construtor da classe CrivoEratostenesSubtracoes que impede que a mesma
      * seja instanciada ou acessada.
      */
-    protected CrivoEratostenesSubtracoes() {
+    private CrivoEratostenesSubtracoes() {
     }
 
     /**
@@ -43,7 +43,9 @@ public class CrivoEratostenesSubtracoes {
             throw new IllegalArgumentException("valor de b inválido");
         }
 
-        int m = 0, c = a, d = b;
+        int m = 0;
+        int c = a;
+        int d = b;
 
         do {
             if (c > d) {

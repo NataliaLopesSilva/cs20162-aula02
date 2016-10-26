@@ -14,13 +14,13 @@ package com.github.natalialopessilva.cs20162.aula02;
  * 2, da disciplina Construção de software do prof. Fábio Nogueira de Lucena.
  *
  */
-public class ProdutoInteiroPositivoUsandoSoma {
+public final class ProdutoInteiroPositivoUsandoSoma {
 
     /**
      * Construtor da classe ProdutoInteiroPositivoUsandoSoma que impede que a
      * mesma seja instanciada ou acessada.
      */
-    protected ProdutoInteiroPositivoUsandoSoma() {
+    private ProdutoInteiroPositivoUsandoSoma() {
     }
 
     /**
@@ -34,7 +34,8 @@ public class ProdutoInteiroPositivoUsandoSoma {
      * @throws IllegalArgumentException Se a ou b for inválido (menor que 0).
      */
     public static int produtoComSoma(final int a, final int b) {
-        int totalParcelas = a, parcela = b;
+        int totalParcelas = a;
+        int parcela = b;
 
         if (a < 0 || b < 0) {
             throw new IllegalArgumentException("valor de a ou b deve ser maior "
@@ -46,7 +47,8 @@ public class ProdutoInteiroPositivoUsandoSoma {
             parcela = a;
         }
 
-        int i = 1, s = 0;
+        int i = 1;
+        int s = 0;
 
         do {
             s += parcela;

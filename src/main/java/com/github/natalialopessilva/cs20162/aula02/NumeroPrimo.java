@@ -13,13 +13,13 @@ package com.github.natalialopessilva.cs20162.aula02;
  * 2, da disciplina Construção de software do prof. Fábio Nogueira de Lucena.
  *
  */
-public class NumeroPrimo {
+public final class NumeroPrimo {
 
     /**
      * Construtor da classe NumeroPrimo que impede que a mesma seja instanciada
      * ou acessada.
      */
-    protected NumeroPrimo() {
+    private NumeroPrimo() {
     }
 
     /**
@@ -34,7 +34,7 @@ public class NumeroPrimo {
     public static boolean verificaPrimo(final int n) {
 
         if (n <= 1) {
-            throw new IllegalArgumentException("valor de n inválido");
+            throw new IllegalArgumentException("valor de n deve  inválido");
         }
 
         int i = 2;

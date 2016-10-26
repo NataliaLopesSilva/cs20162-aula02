@@ -12,7 +12,7 @@ package com.github.natalialopessilva.cs20162.aula02;
  * 2, da disciplina Construção de software do prof. Fábio Nogueira de Lucena.
  *
  */
-public class Propriedade153 {
+public final class Propriedade153 {
 
     /**
      * Número máximo que n pode assumir.
@@ -38,7 +38,7 @@ public class Propriedade153 {
      * Construtor da classe Propriedade153 que impede que a mesma seja
      * instanciada ou acessada.
      */
-    protected Propriedade153() {
+    private Propriedade153() {
     }
 
     /**
@@ -59,7 +59,9 @@ public class Propriedade153 {
             throw new IllegalArgumentException("valor de n inválido");
         }
 
-        int i = 0, j = 0, k = 0;
+        int i = 0;
+        int j = 0;
+        int k = 0;
 
         i = n / NUM_CEM;
         j = (n - NUM_CEM * i) / NUM_DEZ;
