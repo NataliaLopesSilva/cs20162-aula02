@@ -1,7 +1,6 @@
-package com.github.NataliaLopesSilva.exercicio;
+package com.github.natalialopessilva.cs20162aula2;
 
 import com.github.natalialopessilva.cs20162.aula02.PotenciaUsandoSoma;
-import static com.github.natalialopessilva.cs20162.aula02.PotenciaUsandoSoma.setPotenciaUsandoSoma;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -20,10 +19,5 @@ public class PotenciaUsandoSomaTest {
     @Test
     public void resultado() {
         Assert.assertEquals(9, PotenciaUsandoSoma.potencia(3, 2));
-    }
-
-    @Test
-    public void cemPorCentoCobertura() {
-        setPotenciaUsandoSoma();
     }
 }

@@ -2,6 +2,7 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
+
 package com.github.natalialopessilva.cs20162.aula02;
 
 /**
@@ -12,25 +13,19 @@ package com.github.natalialopessilva.cs20162.aula02;
  * 2, da disciplina Construção de software do prof. Fábio Nogueira de Lucena.
  *
  */
-public class CrivoEratostenes {
-
-    /**
-     * Construtor da classe.
-     */
-    private CrivoEratostenes() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setCrivoEratostenes() {
-        CrivoEratostenes crivoEratostenes = new CrivoEratostenes();
-    }
+public final class CrivoEratostenes {
 
     /**
      * Número máximo de divsores que um número primo pode ter (um e ele mesmo).
      */
     public static final int NUM_MAXIMO_DIVISORES = 2;
+
+    /**
+     * Construtor da classe CrivoEratostenes que impede que a mesma seja
+     * instanciada ou acessada.
+     */
+    private CrivoEratostenes() {
+    }
 
     /**
      * Consiste num método de determinação de números primos,.

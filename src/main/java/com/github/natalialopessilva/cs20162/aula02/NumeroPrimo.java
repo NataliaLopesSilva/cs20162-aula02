@@ -16,16 +16,10 @@ package com.github.natalialopessilva.cs20162.aula02;
 public class NumeroPrimo {
 
     /**
-     * Construtor da classe.
+     * Construtor da classe NumeroPrimo que impede que a mesma seja instanciada
+     * ou acessada.
      */
     protected NumeroPrimo() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setNumeroPrimo() {
-        NumeroPrimo numeroPrimo = new NumeroPrimo();
     }
 
     /**

@@ -2,7 +2,6 @@
  * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
-
 package com.github.natalialopessilva.cs20162.aula02;
 
 /**
@@ -14,19 +13,6 @@ package com.github.natalialopessilva.cs20162.aula02;
  *
  */
 public class Propriedade153 {
-
-    /**
-     * Construtor da classe.
-     */
-    protected Propriedade153() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setPropriedade153() {
-        Propriedade153 propriedade153 = new Propriedade153();
-    }
 
     /**
      * Número máximo que n pode assumir.
@@ -47,6 +33,13 @@ public class Propriedade153 {
      * Valor do expoente.
      */
     public static final int EXPOENTE = 3;
+
+    /**
+     * Construtor da classe Propriedade153 que impede que a mesma seja
+     * instanciada ou acessada.
+     */
+    protected Propriedade153() {
+    }
 
     /**
      * Obtém a verificação de um número na propriedade 153.

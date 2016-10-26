@@ -17,16 +17,10 @@ package com.github.natalialopessilva.cs20162.aula02;
 public class MaiorDivisorComum {
 
     /**
-     * Construtor da classe.
+     * Construtor da classe MaiorDivisorComum que impede que a mesma seja
+     * instanciada ou acessada.
      */
     protected MaiorDivisorComum() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setMaiorDivisorComum() {
-        MaiorDivisorComum maiorDivisorComum = new MaiorDivisorComum();
     }
 
     /**

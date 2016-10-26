@@ -1,7 +1,6 @@
-package com.github.NataliaLopesSilva.exercicio;
+package com.github.natalialopessilva.cs20162aula2;
 
 import com.github.natalialopessilva.cs20162.aula02.CrivoEratostenes;
-import static com.github.natalialopessilva.cs20162.aula02.CrivoEratostenes.setCrivoEratostenes;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -33,10 +32,5 @@ public class CrivoEratostenesTest {
         CrivoEratostenes.verificaPrimo(11, vetor);
         int expected[] = {0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0};
         Assert.assertArrayEquals(expected, vetor);
-    }
-
-    @Test
-    public void cemPorCentoCobertura() {
-        setCrivoEratostenes();
     }
 }

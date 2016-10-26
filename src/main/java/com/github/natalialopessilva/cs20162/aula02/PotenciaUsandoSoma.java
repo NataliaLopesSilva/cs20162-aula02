@@ -19,17 +19,10 @@ package com.github.natalialopessilva.cs20162.aula02;
 public class PotenciaUsandoSoma {
 
     /**
-     * Construtor da classe.
+     * Construtor da classe PotenciaUsandoSoma que impede que a mesma seja
+     * instanciada ou acessada.
      */
     protected PotenciaUsandoSoma() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setPotenciaUsandoSoma() {
-        PotenciaUsandoSoma potenciaUsandoSomaeroPrimo
-                = new PotenciaUsandoSoma();
     }
 
     /**

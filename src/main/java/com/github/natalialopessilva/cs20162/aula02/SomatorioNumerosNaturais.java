@@ -16,23 +16,16 @@ package com.github.natalialopessilva.cs20162.aula02;
 public class SomatorioNumerosNaturais {
 
     /**
-     * Construtor da classe.
-     */
-    protected SomatorioNumerosNaturais() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setSomatorioNumerosNaturais() {
-        SomatorioNumerosNaturais somatorioNumerosNaturais
-                = new SomatorioNumerosNaturais();
-    }
-
-    /**
      * Número máximo que n pode assumir.
      */
     public static final int CONTADOR = 2;
+
+    /**
+     * Construtor da classe SomatorioNumerosNaturais que impede que a mesma seja
+     * instanciada ou acessada.
+     */
+    protected SomatorioNumerosNaturais() {
+    }
 
     /**
      * Obtém a somatoria dos numeros naturais para n.

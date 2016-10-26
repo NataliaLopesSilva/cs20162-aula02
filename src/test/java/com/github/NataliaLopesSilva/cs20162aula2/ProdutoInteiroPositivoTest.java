@@ -1,7 +1,6 @@
-package com.github.NataliaLopesSilva.exercicio;
+package com.github.natalialopessilva.cs20162aula2;
 
 import com.github.natalialopessilva.cs20162.aula02.ProdutoInteiroPositivoUsandoSoma;
-import static com.github.natalialopessilva.cs20162.aula02.ProdutoInteiroPositivoUsandoSoma.setProdutoInteiroPositivoUsandoSoma;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -25,10 +24,5 @@ public class ProdutoInteiroPositivoTest {
     @Test
     public void resultadoEsperadoParaBMenorQueA() {
         Assert.assertEquals(8, ProdutoInteiroPositivoUsandoSoma.produtoComSoma(4, 2));
-    }
-
-    @Test
-    public void cemPorCentoCobertura() {
-        setProdutoInteiroPositivoUsandoSoma();
     }
 }

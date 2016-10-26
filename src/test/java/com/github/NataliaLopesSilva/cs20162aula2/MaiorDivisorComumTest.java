@@ -1,7 +1,6 @@
-package com.github.NataliaLopesSilva.exercicio;
+package com.github.natalialopessilva.cs20162aula2;
 
 import com.github.natalialopessilva.cs20162.aula02.MaiorDivisorComum;
-import static com.github.natalialopessilva.cs20162.aula02.MaiorDivisorComum.setMaiorDivisorComum;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -20,10 +19,5 @@ public class MaiorDivisorComumTest {
     @Test
     public void resultado() {
         Assert.assertEquals(4, MaiorDivisorComum.verificaMaiorDivisor(20, 12));
-    }
-    
-    @Test
-    public void cemPorCentoCobertura() {
-        setMaiorDivisorComum();
     }
 }

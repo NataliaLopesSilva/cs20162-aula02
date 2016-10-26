@@ -17,17 +17,10 @@ package com.github.natalialopessilva.cs20162.aula02;
 public class ProdutoInteiroPositivoUsandoSoma {
 
     /**
-     * Construtor da classe.
+     * Construtor da classe ProdutoInteiroPositivoUsandoSoma que impede que a
+     * mesma seja instanciada ou acessada.
      */
     protected ProdutoInteiroPositivoUsandoSoma() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setProdutoInteiroPositivoUsandoSoma() {
-        ProdutoInteiroPositivoUsandoSoma produtoInteiroPositivoUsandoSoma
-                = new ProdutoInteiroPositivoUsandoSoma();
     }
 
     /**

@@ -16,17 +16,10 @@ package com.github.natalialopessilva.cs20162.aula02;
 public class CrivoEratostenesSubtracoes {
 
     /**
-     * Construtor da classe CrivoEratostenesSubtracoes.
+     * Construtor da classe CrivoEratostenesSubtracoes que impede que a mesma
+     * seja instanciada ou acessada.
      */
     protected CrivoEratostenesSubtracoes() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setCrivoEratostenesSubtracoes() {
-        CrivoEratostenesSubtracoes crivoEratostenesSubtracoes
-                = new CrivoEratostenesSubtracoes();
     }
 
     /**

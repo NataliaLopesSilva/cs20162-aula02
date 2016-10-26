@@ -17,19 +17,6 @@ package com.github.natalialopessilva.cs20162.aula02;
 public class Propriedade3025 {
 
     /**
-     * Construtor da classe.
-     */
-    protected Propriedade3025() {
-    }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setPropriedade3025() {
-        Propriedade3025 propriedade3025 = new Propriedade3025();
-    }
-
-    /**
      * Número máximo que n pode assumir.
      */
     public static final int NUM_MAXIMO = 9999;
@@ -48,6 +35,13 @@ public class Propriedade3025 {
      * Valor do expoente.
      */
     public static final int EXPOENTE = 3;
+
+    /**
+     * Construtor da classe Propriedade3025 que impede que a mesma seja
+     * instanciada ou acessada.
+     */
+    protected Propriedade3025() {
+    }
 
     /**
      * Obtém a verificação de um número na propriedade 3025.

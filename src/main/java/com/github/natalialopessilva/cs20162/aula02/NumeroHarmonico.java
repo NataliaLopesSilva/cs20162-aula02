@@ -17,22 +17,16 @@ package com.github.natalialopessilva.cs20162.aula02;
 public class NumeroHarmonico {
 
     /**
-     * Construtor da classe.
+     * Número máximo de divisores que um número primo pode ter (um e ele mesmo).
+     */
+    public static final int INICIO_TERMOS = 2;
+
+    /**
+     * Construtor da classe NumeroHarmonico que impede que a mesma seja
+     * instanciada ou acessada.
      */
     protected NumeroHarmonico() {
     }
-
-    /**
-     * Acessa o construtor da Classe.
-     */
-    public static void setNumeroHarmonico() {
-        NumeroHarmonico numeroHarmonico = new NumeroHarmonico();
-    }
-
-    /**
-     * Número máximo de divsores que um número primo pode ter (um e ele mesmo).
-     */
-    public static final int INICIO_TEMOS = 2;
 
     /**
      * Obtêm o n-ésimo número harmônico..
@@ -48,7 +42,7 @@ public class NumeroHarmonico {
             throw new IllegalArgumentException("valor de n inválido");
         }
 
-        int i = INICIO_TEMOS;
+        int i = INICIO_TERMOS;
         double s = 1;
 
         do {
